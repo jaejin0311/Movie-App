@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "name": "Joker",
+        "desc": "Action",
+        "date": "2019",
+        "image": "profile.webp",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    },
+    {
+        "id": 1,
+        "name": "Joker",
+        "desc": "Action",
+        "date": "2019",
+        "image": "1.png",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    },
+    {
+        "id": 2,
+        "name": "Titanic",
+        "desc": "Romance",
+        "date": "2005",
+        "image": "2.png",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    },
+    {
+        "id": 3,
+        "name": "marvel",
+        "desc": "hero movie",
+        "date": "1929",
+        "image": "3.png",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    },
+    {
+        "id": 4,
+        "name": "marvel",
+        "desc": "hero movie",
+        "date": "1929",
+        "image": "4.png",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    },
+    {
+        "id": 5,
+        "name": "marvel",
+        "desc": "hero movie",
+        "date": "1929",
+        "image": "5.png",
+        "likedMovies": [],
+        "dislikedMovies": [],
+        "likedBy": []
+    }
+]

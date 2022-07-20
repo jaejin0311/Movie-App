@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1;
+    background-color: #f7f7f7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+}
+
+.logo-pic{
+    cursor: pointer;
+}
+
+.logo-pic:hover{
+    opacity: 0.7;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.app {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+}
+
+header {
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 5px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+header button {
+    background-color: transparent;
+    border: 0;
+    width: 50px;
+    cursor: pointer;
+}
+
+header button img {
+    width: 100%;
+}
+
+header .f1 button:hover{
+    opacity: 0.6;
+}
+
+header .f1 {
+    float: left;
+    width: 33%;
+}
+
+header .f1:first-child {
+    text-align: left;
+}
+
+header .f1:nth-child(2) {
+    text-align: center;
+}
+
+header .f1:last-child {
+    text-align: right;
+}
+
+.movie .movie-photo {
+    background-color: #FAF0DC;
+    padding: 10%;
+    padding-bottom: 0;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    box-shadow: 0 0 0px 0 rgba(0,0,0,0.3);
+}
+
+.movie .movie-description {
+    width:100%;
+    overflow: hidden;
+    padding: 5px;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+
+.movie .movie-name-date {
+    width:100%;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.movie .movie-info{
+    width:100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.movie img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border: 5px solid white;
+    border-radius: 18px;
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#actions {
+    background-color: #FAF0DC;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions button{
+    width: 50px;
+    height: 50px;
+    
+    padding: 12px;
+    border: 0;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    cursor: pointer;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.1);
+}
+
+#actions button:first-child{
+    margin-right: 5%;
+}
+
+#actions button:nth-child(2){
+    margin-left: 5%;
+}
+
+#actions button img {
+	width: 100%;
+	height: auto;
+
+}
+
+#actions button {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    
+}
+
+#actions button:hover {
+    background-color: #f7f7f7;
+}
+
+#actions button:first-child:active{
+    background-color: #b6c48e;
+    
+}
+
+#actions button:nth-child(2):active{
+    background-color: red;
+}
+
+#lonely {
+    padding: 10px;
+    border-radius: 1px;
+    background-color: white;
+    border-top: 1px solid #eee;
+}
+
+#liked-movies {
+    margin: auto;
+    overflow: hidden;
+    width:100%
+}
+
+#liked-movies .liked-movie {
+    /* display: inline-block; */
+    width: 100%;
+    margin-top: 10px;
+}
+
+#liked-movies .liked-movie-image {
+    border-radius: 5px;
+}
+
+#liked-movies .liked-movie-image img {
+    width:50%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.rewind {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFDEDF;
+    box-shadow: 0 0 0 rgba(204,169,44, 0.4);
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse 2s infinite;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    border: 3px solid #F5C9CA;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.rewind img {
+    width:100%;
+}
+
+.rewind:hover {
+    animation: none;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 35px rgba(241, 201, 202, 0);
+    }
+  }
+  
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+        box-shadow: 0 0 0 0 rgba(241, 201, 202, 0.4);
+    }
+    100% {
+        -moz-box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+        box-shadow: 0 0 35px 35px rgba(241, 201, 202, 0);
+    }
+}
